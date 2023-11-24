@@ -1,0 +1,28 @@
+div {
+    font-size: 60px;
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    right: 25%;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+p {
+    top: 80%;
+    left: 25%;
+    right: 25%;
+    padding: 2%;
+    font;
+    text-align: center;
+    display: block;
+    position: absolute;
+    background-color:rgb(229, 246, 247);
+    border: 5px solid blanchedalmond;
+    border-radius: 15px;
+}
+body {
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
