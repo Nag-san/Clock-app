@@ -21,10 +21,12 @@ function updateClock() {
     var minutes = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
     var seconds = date.getSeconds() < 10 ? "0"+ date.getSeconds() : date.getSeconds();
 
-    var time = `${hours} : ${minutes} : ${seconds}  ${temp}`
-    console.log(time);
+    var time = `${hours} : ${minutes} : ${seconds}  ${temp}`;
     var clock = document.getElementById("Clock");
     clock.innerHTML = time;
+    fulldate = date.toDateString();
+    document.getElementById("Date").innerHTML = fulldate;
+    
 }
 
 setInterval(updateClock, 1000);
